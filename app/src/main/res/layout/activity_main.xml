@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F2FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTADOR DE CLIQUES"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#57446F"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:textColor="#57446F"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR CLIQUE"/>
+
+    <Button
+        android:id="@+id/btnDiminuir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIMINUIR"/>
+
+    <Button
+        android:id="@+id/btnZerar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ZERAR CONTADOR"/>
+
+</LinearLayout>
